@@ -18,7 +18,8 @@ public class Example {
 	public void iam_can_see_login_Page() throws Throwable {
 		
 	      driver = new FirefoxDriver();
-		 	driver.get("http://aish.8storage.com");
+		 	driver.get("http://www.facebook.com");
+		 	
 		 	 driver.manage().window().maximize();
 		 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);	
 		 	
